@@ -58,6 +58,7 @@ docker compose up -d
 
 # Start the telemetry generator
 docker compose up -d telemetry-generator
+```
 
 <img width="1512" height="949" alt="Screenshot 2026-02-12 at 9 05 35 PM" src="https://github.com/user-attachments/assets/0557b0f3-46cd-4bd0-9973-b87dca17cf19" />
 
