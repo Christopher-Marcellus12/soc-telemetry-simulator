@@ -1,4 +1,20 @@
+# 🛡️ Wazuh SOC Telemetry Simulator
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)
+![Wazuh](https://img.shields.io/badge/SIEM-Wazuh-green)
+![Security](https://img.shields.io/badge/Cybersecurity-SOC%20Lab-red)
+![Status](https://img.shields.io/badge/Project-Active-success)
+
+A Dockerized SOC lab using **Wazuh SIEM** and a custom Python telemetry generator that emits realistic security events like:
+
+- SSH brute force
+- Network scanning
+- Privilege escalation
+- Suspicious commands
+
+Built for threat hunting practice and blue-team portfolio demonstrations.
 
 # soc-telemetry-simulator
 
