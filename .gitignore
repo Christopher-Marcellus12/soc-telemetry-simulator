@@ -1,0 +1,19 @@
+# Logs
+single-node/telemetry-generator/logs/*
+!single-node/telemetry-generator/logs/.gitkeep
+
+# Wazuh certs / secrets (don’t commit)
+single-node/wazuh-certificates/
+single-node/**/certs/
+single-node/**/ssl_certs/
+single-node/**/*.pem
+single-node/**/*.key
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
