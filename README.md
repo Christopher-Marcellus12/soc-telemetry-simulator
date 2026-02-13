@@ -4,29 +4,42 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)
 ![Wazuh](https://img.shields.io/badge/SIEM-Wazuh-green)
-![Security](https://img.shields.io/badge/Cybersecurity-SOC%20Lab-red)
+![Cybersecurity](https://img.shields.io/badge/BlueTeam-SOC%20Lab-red)
 ![Status](https://img.shields.io/badge/Project-Active-success)
 
-A Dockerized SOC lab using **Wazuh SIEM** and a custom Python telemetry generator that emits realistic security events like:
+A Dockerized **Security Operations Center (SOC)** lab built using **Wazuh SIEM** and a custom Python telemetry generator that emits realistic security events.
 
-- SSH brute force
-- Network scanning
-- Privilege escalation
-- Suspicious commands
+This project simulates real-world attack activity for **threat hunting**, **incident detection**, and **blue-team training**.
 
-Built for threat hunting practice and blue-team portfolio demonstrations.
+---
 
-# soc-telemetry-simulator
+## 🚀 Overview
 
-A Dockerized SOC lab using **Wazuh SIEM** plus a custom **Python telemetry generator** that emits realistic security events (SSH brute force, scanning, privilege escalation, suspicious commands) for **threat hunting practice**.
+The SOC Telemetry Simulator generates realistic logs such as:
 
-## What this demonstrates
-- SIEM deployment (Wazuh Manager + Indexer + Dashboard)
-- Security telemetry generation (simulated attacks, safe)
-- Log ingestion + dashboards for SOC workflows
-- Threat hunting practice aligned with Security+ concepts
+- SSH brute-force attempts
+- Network scanning activity
+- Privilege escalation behavior
+- Suspicious command execution
 
-## Architecture
+These events are ingested into Wazuh to simulate a live security monitoring environment.
+
+---
+
+## 🧠 Skills Demonstrated
+
+- SIEM Monitoring (Wazuh)
+- SOC Workflow Simulation
+- Threat Detection & Analysis
+- Docker Infrastructure
+- Python Automation
+- Log Telemetry Engineering
+- Security Event Simulation
+- Blue-Team Operations
+
+---
+
+## 🏗️ Architecture
 Telemetry Generator → Wazuh Manager → Indexer (OpenSearch) → Wazuh Dashboard
 
 ## Requirements
@@ -45,3 +58,7 @@ docker compose up -d
 
 # Start the telemetry generator
 docker compose up -d telemetry-generator
+
+<img width="1512" height="949" alt="Screenshot 2026-02-12 at 9 05 35 PM" src="https://github.com/user-attachments/assets/0557b0f3-46cd-4bd0-9973-b87dca17cf19" />
+
+<img width="842" height="396" alt="Screenshot 2026-02-12 at 9 04 35 PM" src="https://github.com/user-attachments/assets/29163ea4-27d9-416d-a1e8-8e9885a4e2ec" />
